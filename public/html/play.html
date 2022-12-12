@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ping Pong Score Board</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="src/styles.css">
+  <script src="src/index.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+        <table class="Score_table">
+            <tbody>
+                <tr>
+                    <td id="td1" colspan="3" rowspan="1">
+                        <p><span id="project_name">Ping Pong Score Board</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td2" colspan="1" rowspan="1">
+                        <p><span id="TeamA">Team Name A</span></p>
+                    </td>
+                <td id="td3" rowspan="1" colspan="1">
+                        <p><img src="img/switch.png" title="switch" onclick="switch_table();"><br /></p>
+                    </td>
+                <td id="td4" rowspan="1" colspan="1">
+                        <p><span id="TeamB">Team Name B</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td5" colspan="1" rowspan="1">
+                        <p><span id="ScoreA">11</span></p>
+                    </td>
+                    <td id="td6" rowspan="1" colspan="1">
+                        <p><img src="img/reset.png" title="reset" onclick="reset()"></p>
+                    </td>
+                    <td id="td7" rowspan="1" colspan="1">
+                        <p><span id="ScoreB">15</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="td8">
+                        <p><img src="img/plus.jpg" title="plus" class="image_size" onclick="plus_num(1)" onmouseover="img_big(this)" onmouseout="img_small(this)">&nbsp;&nbsp;
+                           <img src="img/minus.jpg" title="minus" class="image_size" onclick="minus_num(1)" onmouseover="img_big(this)" onmouseout="img_small(this)">
+                        </p>
+                    </td>
+                    <td id="td9">
+                        <p><img src="img/pingpong.png" title="ping pong Score Board" onclick="show_prog()"></p>
+                    </td>
+                    <td id="td10">
+                        <p><img src="img/plus.jpg" title="plus" class="image_size" onclick="plus_num(1)" onmouseover="img_big(this)" onmouseout="img_small(this)">&nbsp;&nbsp;
+                            <img src="img/minus.jpg" title="minus" class="image_size" onclick="minus_num(1)" onmouseover="img_big(this)" onmouseout="img_small(this)">
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table> 
+    </div>   
+  </body>
+</html>

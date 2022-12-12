@@ -11,7 +11,19 @@ const nextConfig = {
       {
         source:'/rule',
         destination: '/html/rule.html'
-      }
+      },
+      {
+        source:'/player',
+        destination: '/html/player.html'
+      },
+      {
+        source:'/ourPlayer',
+        destination: '/html/ourPlayer.html'
+      },
+      {
+        source:'/play',
+        destination: '/html/play.html'
+      },
     ]
   }
 }

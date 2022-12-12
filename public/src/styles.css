@@ -1,0 +1,182 @@
+#app {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 50;
+    padding: 0;
+  }
+  
+img {
+    padding: 0;
+    margin: 0;    
+  }
+   
+p {
+    text-align:center;
+    margin: 0;
+    text-align: center;
+    padding: 16px;
+  }
+
+.Score_table {
+    width: 1500px; 
+    height: 556px; 
+    font-size: 10pt; 
+    border-width: 0px; 
+    border-color: rgb(0, 0, 0); 
+    border-collapse: collapse; 
+    border-style: solid; 
+    background-color: rgb(255, 255, 255);
+  }
+
+#td1 {
+    width: 1500px; 
+    height: 61px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid; 
+    background-color: rgb(180, 95, 6); 
+    background-image: none; 
+    background-repeat: repeat; 
+    background-position: 0% 0%; 
+    text-align: start; 
+    vertical-align: middle;
+  }
+
+#td2 {
+    width: 660px; 
+    height: 67px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid; 
+    background-color: rgb(0, 0, 0); 
+    background-image: none; 
+    background-repeat: repeat; 
+    background-position: 0% 0%; 
+    text-align: start; 
+    vertical-align: middle;
+  }
+
+#td3 {
+    width: 117px; 
+    height: 67px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid; 
+    background-color: rgb(255, 153, 0); 
+    background-image: none; 
+    background-repeat: repeat; 
+    background-position: 0% 0%; 
+    text-align: start; 
+    vertical-align: middle;
+  }
+
+#td4 {
+    width: 663px; 
+    height: 67px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid; 
+    background-color: rgb(0, 0, 0); 
+    background-image: none; 
+    background-repeat: repeat; 
+    background-position: 0% 0%; 
+    text-align: start; 
+    vertical-align: middle;
+  }
+
+#td5 {
+    width: 660px; 
+    height: 361px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid; 
+    background-color: rgb(185, 51, 48);
+  }
+
+#td6 {
+    width: 117px; 
+    height: 361px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid; 
+    background-color: rgb(255, 153, 0);
+  }
+
+#td7 {
+    width: 660px; 
+    height: 361px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid; 
+    background-color: rgb(61, 67, 149);
+  }
+
+#td8 {
+    width: 660px; 
+    height: 67px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid; 
+    vertical-align: middle;
+
+  }
+
+#td9 {
+    width: 117px; 
+    height: 67px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid; 
+    background-color: rgb(255, 153, 0);
+  }
+
+#td10 {
+    width: 663px; 
+    height: 67px; 
+    border-width: 1px; 
+    border-color: rgb(0, 0, 0); 
+    border-style: solid;
+  }
+
+.image_size {
+    width: 39px; 
+    height: 39px;
+  }
+        
+#project_name {
+    color: rgb(255, 255, 0); 
+    font-size: 20pt; 
+    font-weight: 700;
+  }
+
+#TeamA, #TeamB {
+    color:rgb(255, 255, 255);
+    font-size:20pt;
+    font-weight:700;
+    text-align:center;
+  }
+
+#ScoreA, #ScoreB
+  {
+    font-size:40pt;
+    text-align:center;
+    font-weight:bold;
+  }
+
+h1,
+h2 {
+    text-align: center;
+    padding: 8px;
+    color: rgb(255, 255, 0); 
+    font-size: 20pt; 
+    font-weight: 700;
+  }
+  
